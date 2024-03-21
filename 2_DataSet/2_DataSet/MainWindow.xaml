@@ -1,0 +1,62 @@
+﻿<Window x:Class="_2_DataSet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2_DataSet"
+        mc:Ignorable="d"
+        Title="че" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Products">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid x:Name="dataGrid1" ItemsSource="{Binding}" AutoGenerateColumns="True />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <TextBox x:Name="txtProductName" Width="100" Margin="5" ToolTip="Введите название продукта"/>
+                        <TextBox x:Name="txtProductDescription" Width="100" Margin="5" ToolTip="Введите название продукта"/>
+                        <TextBox x:Name="txtCategoryId" Width="100" Margin="5" ToolTip="Введите ID категории" />
+                        <TextBox x:Name="txtPrice" Width="100" Margin="5" ToolTip="Введите цену"/>
+                        <Button Content="Добавить" Click ="AddProduct_Click" Margin="5" />
+                        <Button Content="Изменить" Click="Edit_Click"  Margin="5" />
+                        <Button Content="Удалить" Click =" DeleteProduct_Click" Margin="5" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Orders">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid x:Name="dataGrid2" ItemsSource="{Binding}" AutoGenerateColumns="True"  />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <TextBox x:Name="txtProductId" Width="150" Margin="5" ToolTip="Введите ProductID"/>
+                        <TextBox x:Name="txtOrderPrice" Width="150" Margin="5" ToolTip="Введите TotalPrice"/>
+                        <Button Content="Добавить" Click="AddOrder_Click" Margin="5"  />
+                        <Button Content="Изменить" Click="Edit_Click" Margin="5"  />
+                        <Button Content="Удалить" Click="DeleteOrder_Click" Margin="5"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Categories">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid x:Name="dataGrid3" ItemsSource="{Binding}" AutoGenerateColumns="True"  />
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <TextBox x:Name="txtCategoryName" Width="150" Margin="5" ToolTip="Введите CategoryName"/>
+                        <Button Content="Добавить" Click="AddCategory_Click" Margin="5" />
+                        <Button Content="Изменить" Click="Edit_Click"  Margin="5" />
+                        <Button Content="Удалить" Click ="DeleteCategory_Click" Margin="5" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

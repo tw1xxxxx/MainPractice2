@@ -1,0 +1,14 @@
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\MainWindow.g.cs
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\App.g.cs
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet_MarkupCompile.cache
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet_MarkupCompile.lref
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\bin\Debug\2_DataSet.exe.config
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\bin\Debug\2_DataSet.exe
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\bin\Debug\2_DataSet.pdb
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\MainWindow.baml
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet.g.resources
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\_2_DataSet.Properties.Resources.resources
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet.csproj.GenerateResource.cache
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet.csproj.CoreCompileInputs.cache
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet.exe
+C:\Users\mixar\source\repos\2_DataSet\2_DataSet\obj\Debug\2_DataSet.pdb
